@@ -1,0 +1,36 @@
+{
+	"id": "vitdi-win-agent",
+	"name": "Windows Control Agent",
+	"shortname": "win-agent",
+	"description": "Remote control for Windows PCs via Python Win-Agent (Power, App Launch, Input, System Stats).",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/Vit-Di/companion-module-vitdi-win-agent.git",
+	"bugs": "https://github.com/Vit-Di/companion-module-vitdi-win-agent/issues",
+	"maintainers": [
+		{
+			"name": "Vitalii Diachuk",
+			"email": "vitaliidiachuk12@gmail.com"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../main.js"
+	},
+	"manufacturer": "Vit-Di",
+	"products": [
+		"Win-Agent"
+	],
+	"keywords": [
+		"remote",
+		"control",
+		"admin",
+		"automation",
+		"python",
+		"system",
+		"input"
+	]
+}
